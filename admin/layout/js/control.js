@@ -12,7 +12,7 @@ $(function() {
         $(this).attr('placeholder', '' );
         
     }).blur(function() { 
-        // Setting the placeholder attribute value with teh saved 'text-data' attribute value:     
+        // 3) Setting the placeholder attribute value with teh saved 'text-data' attribute value:     
         $(this).attr( 'placeholder', $(this).attr('text-data') );
     });
 });
