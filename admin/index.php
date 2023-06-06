@@ -1,28 +1,20 @@
 <?php 
     // Importing the {init.php} file :  
     include 'init.php' ;
-
     // Merging the routs ($tpl) -> in the path of included {header.php} : 
     include $tpl . 'header.php' ;
-
-    // Including language file : 
-    // include 'includes/langs/en.php';
-    include 'includes/langs/ar.php';
-
+    include 'includes/langs/en.php';
 ?>
 
-    Hello this is index page <br>
 
-    <button class="btn btn-danger 5x"> click </button> <br>
-    <i class="fa fa-home fa-5x">testing icons </i> <br>
-
-<?php
-    echo lang('MESSAGE');
-?>
-
+<form  class="login">
+    <h4 class="text-center"> Login Form </h4>
+    <input type="text"     name="user"  placeholder="username"  autocomplete="off"           class="form-control input-lg"   /> 
+    <input type="password" name="pass"  placeholder="password"  autocomplete="new-password"  class="form-control input-lg"   /> 
+    <input type="submit"   value="login"     class="btn btn-primary btn-block input-lg"   /> 
+</form>
 
 
 <?php 
-    // Merging the routs ($tpl) -> in the path of included {footer.php}
     include $tpl . 'footer.php' ;
 ?>
