@@ -5,10 +5,14 @@
             'MESSAGE' => 'Welcome to the our website' ,
             'ADMIN' => 'Shadi',
             
-            // setting page : 
+            // Setting page : 
             'USER' => 'ALI' ,
             'ADMIN' => 'SHADI',
         
+            // Dashbaoord page:
+                'HOME_ADMIN' => 'ShindowPro' ,
+                '' => ' ' ,
+                '' => ' ' ,
         );
 
         return $lang[$phrase];
