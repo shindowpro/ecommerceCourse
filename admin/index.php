@@ -14,7 +14,7 @@
     // Importing the {init.php} file :  
         include 'init.php' ;
     
-    // Merging the routs ($tpl) -> in the path of included {header.php} : 
+    // Merging the routs ($tpl) -> in the path of included {header.php} -> [moved into the init.php] : 
         // include 'includes/langs/en.php';
         // include $tpl . 'header.php' ;
  
